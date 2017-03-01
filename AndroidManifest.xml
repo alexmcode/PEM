@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.theapp_alfabuild"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_final"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.theapp_alfabuild.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.Register"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.ReadMessage"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.AddMessage"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.ListViewMsg"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.DisplayMessages"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.ManualScanBeta"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.Add_Scan"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.Comment"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.AutoScan"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.Login"
+            android:label="@string/app_name"  >
+        </activity>
+        <activity
+            android:name="com.example.theapp_alfabuild.AddComment"
+            android:label="@string/app_name"  >
+        </activity>
+    </application>
+
+</manifest>

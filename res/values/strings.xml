@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PEMapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    
+    <!-- string ids for home.xml -->
+    <string name="post_message">Add message</string>
+    <string name="read_comments_title">Events happened here</string>
+      <string name="passwords_not_same">Passwords don\'t match</string>
+	 <string name="comments_title">Comments</string>
+     <string name="btn_post_comm">Add comment</string> 
+	 <string name="btn_back">///</string> 
+     
+</resources>
